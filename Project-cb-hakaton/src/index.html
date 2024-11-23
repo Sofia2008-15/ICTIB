@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-Project</title>
+    <meta name="description" content="'это сайт про разработку ">
+    <link rel="stylesheet" href="css/normalizes.css">
+    <script src="https://kit.fontawesome.com/5a86ba6353.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+
+
+<body>
+
+  <!-- главная секция  -->
+  <section class="main-section ">
+
+<!-- меню  на мобилы -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+ <!-- поверх изображения главная секция-->
+    <div class="overlay">
+      </div>
+    </div>
+
+<!-- навигационное меню -->
+    <div class="main-section__container-nav container">
+      <header class="main-section__header">
+        <img src="icons/Vector.svg" alt="">
+      </header>
+      <nav class="main-section__nav nav-menu">
+        <ul class="nav-menu__list">
+          <li class="nav-menu__list-item">
+            <a href="#study">Обучение </a> 
+          </li>
+          <li class="nav-menu__list-item">
+            <a href="#enroll"> Как поступить? </a>
+          </li>
+          <li class="nav-menu__list-item">
+            <a href="#help">Помощь</a>
+          </li>
+          <li class="nav-menu__list-item">
+            <a href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+<!-- контейнер с контентом  -->
+    <div class="main-section__content-container container">
+
+      <div class="main-section__block block">
+<!-- левая часть -->
+        <div class="block__left-wrapper">
+          <p class="block__title title title_white"> О наc
+          </p>
+          <h2> Мы - первый ВУЗ юга России, Мы - один из передовых ВУЗов страны. Тысячи поступающих счастливых студентов уже с нами. Присоединяйся!</h2>
+        </div>
+<!-- правая часть  -->
+        <div class="block__right-wrapper">
+          <h1 class="block__text"> 
+            Необходима консультация?
+          </h1>
+<!-- кпонка -->
+          <button class="block__btn button">
+            <a href="https://t.me/IktiBot" class="button__text">задать вопрос</a>
+          </button>
+<!-- иконки -->
+          <div class="block__icons icons">
+            <img class="icons__item" src="icons/правая часть/telegramm 1.svg" alt=" иконка телеграмм">
+            <img class="icons__item" src="icons/правая часть/skype 1.svg" alt="">
+            <img class="icons__item" src="icons/правая часть/instagramm 1.svg" alt="иконка инстаграмм">
+            <img class="icons__item" src="icons/правая часть/vk 1.svg" alt="иконка вк">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+<!-- вторая секция -->
+  <section id="study" class="second-section">
+    <div class="second-section__title-container container" >
+      <p class=" second-section__title title "> Обучение
+        <hr class="title__hr">
+      </p>
+    </div>
+
+
+<!-- карусель -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+<!-- страница карусели -->
+        <div class="carousel-item active">
+          <!-- блок с текстом -->
+          <div class="content">
+            <h2 class="content__title "> Yello vfvf</h1>
+            <p class="content__text ">7 инновационных корпусов по всему городу, сотни студентов, занимающие ведущие должности во всех IT-компаниях Мира и высшая профессиональная квалификация 
+          </div>
+          <img src="img/изображение Юфу хакатон.svg" class="d-block w-100" alt="Юфу/здание">
+        </div>
+        <div class="carousel-item">
+          <!-- блок с текстом -->
+          <div class="content">
+            <h2 class="content__title "> Наши активности</h1>
+            <p class="content__text ">Наши студенты везде: на каждом турнире кода призовые и первые места отходят ИКТИБу. В нашем институте учится вся активная, а главное, способная молодёжь юга
+          </div>
+
+          <img src="img/картинка карусель :2 слайд.png" class="d-block w-100" alt="Мероприятия">
+        </div>
+
+        <div class="carousel-item">
+          <!-- блок с текстом -->
+          <div class="content">
+            <h2 class="content__title "> У НАС:
+            </h1>
+            <p class="content__text ">Множество аудиторий, оснащённых всей необходимой для комфортного обучения техникой, чтобы наши студенты могли приобретать не только теоретические знания, но и практические умения
+          </div>
+          <img src="img/Картинка слайдер 3 слайд.jpg" class="d-block w-100" alt="Картинка">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- иконки и текст под нимии -->
+    <div class="second-section__content-container container">
+
+      <div class="second-section__icons-container">
+        <img class="second-section__img" src="icons/graduation 1.svg" alt="иконка">
+        <img class="second-section__img"  src="icons/graduated 1.svg" alt="иконка">
+        <img class="second-section__img"  src="icons/best-seller 1.svg" alt="иконка">
+      </div>
+
+      <div class="second-section__text-container">
+        <p class="second-section__text">  привутствует система <span>бакалавриат </span></p>
+        <p class="second-section__text"> более  <span> 300 </span> студентов трудоустраиваются </p>
+        <p class="second-section__text">Лучший институт Юга России <span>3</span>года подряд </p>
+      </div>
+
+    </div>
+
+  </section>
+<!-- третья секция -->
+  <section id="enroll" class="third-section ">
+   
+     <div class="third-section__content-container container">
+ <!-- левая часть -->
+      <div class="third-section__left-wrapper">
+        
+          <p class=" second-section__title title "> Как поступить?
+            <hr class="title__hr ">
+          </p>
+        
+<!-- текст с точкой -->
+        <div class="third-section__text-wrapper">
+          <div class="third-section__textpoint textpoint ">
+            <div class="textpoint__point">
+
+            </div>
+            <h3 class="textpoint__text" >
+              Сдать егэ и необходимое количество баллов для поступления
+            </h3>
+          </div>
+        </div>
+
+        <div class="third-section__text-wrapper">
+          <div class="third-section__textpoint textpoint ">
+            <div class="textpoint__point">
+
+            </div>
+            <h3 class="textpoint__text" >
+              Подать документы  в приемную коммисию
+            </h3>
+          </div>
+        </div>
+        <div class="third-section__text-wrapper">
+          <div class="third-section__textpoint textpoint ">
+            <div class="textpoint__point">
+
+            </div>
+            <h3 class="textpoint__text" >
+              Ждать от нас ответа
+            </h3>
+          </div>
+        </div>
+        <button class="third-section__btn button">
+          <a href="https://t.me/IktiBot" class="button__text">Поступить</a>
+        </button>
+        
+      </div>
+      <div class="third-section__right-wrapper">
+        <img src="img/картинка:секция как поступить.jpg" alt="изображение">
+      </div>
+
+    </div>
+  </div>
+
+  </section>
+<!-- четвертая секция -->
+  <section id="help" class="fourth-section ">
+<!-- контейнер с окнтентом -->
+    <div class="fourth-section__content-container container">
+
+<!-- левая часть -->
+      <div class="fourth-section__left-wrapper">
+
+        <p class=" fourth-section__title title  "> Помощь абитуриентам
+          <hr class="title__hr title__hr_position">
+        </p>
+
+        <p class="fourth-section__text-title">
+          Часто задаваемые вопросы !
+          Возможно тут есть ответ на ваш вопрос.
+        </p>
+
+
+<!-- аккордеон -->
+        <div class="accordion " id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Где я могу посмотреть всю информацию? 
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Где я могу посмотреть всю информацию? Полную информацию, необходимую для поступления, вы можете посмотреть на нашем сайте: <a href="https://abit.ictis.sfedu.ru/">  https://abit.ictis.sfedu.ru/</a> Возможно там будут ответы на все ваши вопросы </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Какие стипендии?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Стипендии студентов отличаются в зависимости от программы обучения и успеваемости. Сумма стипендий доходит до 7800 рублей. Подробную информацию вы можете посмотреть по следующей ссылке: <a href="https://abit.ictis.sfedu.ru/bachelor.html#grants"> https://abit.ictis.sfedu.ru/bachelor.html#grants </a></div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Какие достижения дают баллы?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Список необходимых достижений вы можете посмотреть по ссылке:<a href="https://abit.ictis.sfedu.ru/priem2023.html#achivements">https://abit.ictis.sfedu.ru/priem2023.html#achivements </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- првавая часть/4 секция -->
+      <div class="fourth-section__right-wrapper">
+        <div class="fourth-section__text-container">
+          <p class="fourth-section__text">
+            В нашем сервисе вы можете задать абсолютно любой интересующий вас вопрос любому студенту нашего ВУЗа на выбор, он даст вам ответ на доступном языке и, возможно, расскажет что-то интересное о вашем будущем обучении.Если остались вопросы заполните форму ,нажав на кнопку.
+          </p>
+  
+          <button class="fourth-section__button button">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSenhatMBosZsb3EcBKJIbQApJiqh8S7FCCfrFbacbZbFgrnBQ/viewform?usp=sf_link" class="button__text button__text_size">Заполнить форму</a>
+          </button>
+
+        </div>
+        <img class="fourth-section__img" src="img/картинка:секция помощь.jpg" alt="картинка/помощь">
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- футер -->
+  <footer id="contacts" class="footer-section " >
+    <div class="footer-section__overlay">
+    </div>
+    <!-- весь контент -->
+    <div class="footer-section__content-container container">
+      <!-- текст без карты -->
+      <div class="footer-section__text-wrapper">
+<!-- меню сверху -->
+        <div class="footer-section__menu">
+  <!-- заголовок -->
+
+          <h1 class="footer-section__title title title_white">Контакты
+            <hr class="title__hr title__hr_white">
+          </h1>
+
+  <!-- текст рядом с заголовком -->
+          <p  class="footer-section__text">Следи за нами</p>
+          <p class="footer-section__text" > Есть вопросы?</p>
+        </div>
+      </div>
+      <!-- контент под меню -->
+      <div class="footer-section__contacts">
+        <!-- номера телефонов -->
+        <div class="footer-section__numbers">
+          <p>+7 919 567 57 22</p>
+          <p>+7 997 346 22 67</p>
+        </div>
+        <!-- иконки -->
+        <div class="footer-section__icons icons">
+          <img class="icons__item" src="icons/4 секция/telegramm 1.svg" alt=" иконка телеграмм">
+          <img class="icons__item" src="icons/4 секция/skype 1.svg" alt="">
+          <img class="icons__item" src="icons/4 секция/instagramm 1.svg" alt="иконка инстаграмм">
+          <img class="icons__item" src="icons/4 секция/vk 1.svg" alt="иконка вк">
+        </div>
+
+        <!-- кнопка -->
+        <button class="footer-section__btn button">
+          <a href="https://t.me/IktiBot" class="button__text">Связаться</a>
+        </button>
+      </div>
+      <div class="footer-section__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10841.505667332685!2d38.92545897252016!3d47.20921663849523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3fd22b0ac76fb%3A0x9f14d4bef8b4f8c!2z0K7QpNCj!5e0!3m2!1sru!2sru!4v1732258170179!5m2!1sru!2sru" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+
+
+
+<!-- скрипт -->
+
+  <script src="js/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
